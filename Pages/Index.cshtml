@@ -1,0 +1,125 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Hello World!</h1>
+    <small class="text-muted">Powered by <span class="badge">.net</span>! </small>
+</div>
+
+<br>
+
+<br>
+
+<strong>Widgets</strong>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Class</th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Wammer</td>
+      <td>Tool</td>
+      <td>$9</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Fladder</td>
+      <td>Tool</td>
+      <td>$40</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Domputer</td>
+      <td>Electronics</td>
+      <td>$990</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Zrinter</td>
+      <td>Electronics</td>
+      <td>$555</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Satch</td>
+      <td>Accessory</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Noes</td>
+      <td>Accessory</td>
+      <td>$80</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>Shingers</td>
+      <td>Accessory</td>
+      <td>$120</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>Tieboard</td>
+      <td>Tool</td>
+      <td>$20</td>
+    </tr>             
+    <tr>
+      <th scope="row">9</th>
+      <td>ZoeZoe</td>
+      <td>Electronics</td>
+      <td>$430</td>
+    </tr>
+    <tr>
+      <th scope="row">10</th>
+      <td>Boomba</td>
+      <td>Tool</td>
+      <td>$50</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Trigger the modal with a button -->
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Specials</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+          Specialize
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Big Boomba
+                <span class="badge badge-primary badge-pill">14</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Little Green Friend
+                <span class="badge badge-primary badge-pill">2</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Morbi
+                <span class="badge badge-primary badge-pill">1</span>
+            </li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
